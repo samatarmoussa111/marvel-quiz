@@ -36,7 +36,7 @@ const Welcome = (props) => {
   return userSession === null ? (
     <>
       <div className="loader"></div>
-      <p style={{ color: "#fff" }}>Chargement...</p>
+      <p style={{ color: "#fff", textAlign: "center" }}>Chargement...</p>
     </>
   ) : (
     <div className="quiz-bg">
